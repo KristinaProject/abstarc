@@ -1,0 +1,28 @@
+header {
+position: absolute;
+right: 0;
+top: 0;
+left: 0;
+height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+ display: flex;
+ flex-direction: row;
+}
+
+.search-icon {
+  width: 50px;
+}
+
+.hamburger-icon {
+  width: 50px;
+}
