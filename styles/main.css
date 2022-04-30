@@ -61,3 +61,47 @@ h1 {
 .right-arrow:hover {
   color: blue;
 }
+
+nav{
+  margin-top: 600px;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+}
+.text-info {
+ margin-left: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 25px ; 
+}
+
+.name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.text-about {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-a {
+  color: #4C5FD5;
+  text-decoration: unset;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
