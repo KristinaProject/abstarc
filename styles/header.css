@@ -41,7 +41,6 @@ font-family: arial;
  margin-right: 130px;
  align-items: center;
  text-align: center;
-
 }
 
 .submit-button {
@@ -49,6 +48,7 @@ font-family: arial;
   padding: 9px 20px 9px 20px;
   border: solid 1px;
   border-radius: 10px;
+  
 }
 
 .sign-in {
@@ -63,4 +63,7 @@ font-family: arial;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
+
+  cursor: pointer;
+
 }

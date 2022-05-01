@@ -2,26 +2,25 @@ footer {
   background-color: black;
   color: white;
   margin-top: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  position: relative;
+  position: absolute;
   right: 0;
   left: 0;
-  bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
+  display: block;
 }
 
 .footer-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-
+  display: inline-block;
+  vertical-align: top;
 }
 
 .last-footer {
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.list {
   
 }
