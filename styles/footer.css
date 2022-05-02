@@ -2,16 +2,27 @@ footer {
   background-color: black;
   color: white;
   margin-top: 200px;
-  position: absolute;
+  position: relative;
   right: 0;
+  bottom: 0;
   left: 0;
+  height: 400px;
   font-family: Arial, Helvetica, sans-serif;
-  display: block;
+  padding-bottom: 50px;
+  
 }
 
+
 .footer-info {
-  display: inline-block;
-  vertical-align: top;
+  position: relative;
+  width: 90%;
+  max-width: 1900px;
+  margin-left: 200px;
+
+}
+
+div {
+  display: block;
 }
 
 .last-footer {
@@ -22,5 +33,16 @@ footer {
 
 
 .list {
-  
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.copyright {
+  z-index: 5;
+  position: absolute;
+  right: 150px;
+  bottom: 50px;
+  width: 200px;
 }
